@@ -5,280 +5,463 @@
 	<meta charset="UTF-8" />
 	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.0.1 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.1.2 http://gramps-project.org/" />
 	<meta name="author" content="Michael Gordy" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 </head>
 <body  onload = "initialize();" >
-	<div id="header">
-		<h1 id="SiteTitle">World of Yesterday</h1>
-	</div>
-	<div class="wrapper" id="nav" role="navigation">
-		<div class="container">
-			<ul class="menu" id="dropmenu">
-				<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
-				<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
-				<li class = "CurrentSection"><a href="../../../places.html" title="Places">Places</a></li>
-				<li><a href="../../../sources.html" title="Sources">Sources</a></li>
-				<li><a href="../../../media.html" title="Media">Media</a></li>
-				<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
-				<li><a onclick="history.go(-1);">Previous</a></li>
-				<li><a onclick="history.go(+1);">Next</a></li>
-			</ul>
+	<div id="outerwrapper">
+		<div id="header">
+			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
+			<h1 id="SiteTitle">World of Yesterday</h1>
 		</div>
-	</div>
-	<div class="content" id="PlaceDetail">
-		<h3>Leopoldstadt, Vienna (II), Vienna, Austria</h3>
-		<div id="summaryarea">
-			<table class="infolist place">
-				<tbody>
-					<tr>
-						<td class="ColumnAttribute">Gramps ID</td>
-						<td class="ColumnValue">P0801</td>
-					</tr>
-					<tr>
-						<td class="ColumnAttribute">City</td>
-						<td class="ColumnValue">Vienna</td>
-					</tr>
-					<tr>
-						<td class="ColumnAttribute">Postal Code</td>
-						<td class="ColumnValue">Wien-II</td>
-					</tr>
-					<tr>
-						<td class="ColumnAttribute">Country</td>
-						<td class="ColumnValue">Austria</td>
-					</tr>
-				</tbody>
-			</table>
+		<div class="wrappernav" id="nav" role="navigation">
+			<div class="container">
+				<ul class="nav" id="dropmenu">
+					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
+					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
+					<li><a href="../../../media.html" title="Media">Media</a></li>
+					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
+				</ul>
+			</div>
 		</div>
-		<div id="popup"></div>
-		<div class="subsection" id="references">
-			<h4>References</h4>
-			<ol class="Col1" role="Volume-n-Page" type=1>
-				<li>
-					<a href="../../../ppl/5/9/d7e694fe2d66e1feeb672bc8595.html">
-					Fischer, Karl Gottlieb
-					
-						<span class="grampsid"> [I3738]</span>
-					</a>
-				</li>
-				<li>
-				Family of Kohn, Romeo and Mandler, Rosalie
-					<ol class="Col1" role="Volume-n-Page" type=a>
-						<li>
-							<a href="../../../ppl/5/7/e42a961567d7ecccc7c653d4775.html">
-							Kohn, Romeo
-							
-								<span class="grampsid"> [I5954]</span>
-							</a>
-						</li>
-						<li>
-							<a href="../../../ppl/3/3/e42957394f166efdbeba8d4a733.html">
-							Mandler, Rosalie
-							
-								<span class="grampsid"> [I5952]</span>
-							</a>
-						</li>
-					</ol>
-				</li>
-				<li>
-					<a href="../../../ppl/5/7/e42a961567d7ecccc7c653d4775.html">
-					Kohn, Romeo
-					
-						<span class="grampsid"> [I5954]</span>
-					</a>
-				</li>
-				<li>
-					<a href="../../../ppl/2/a/d96f2c55fb46a6ab6e4974003a2.html">
-					Plaschkes, Ernestine
-					
-						<span class="grampsid"> [I3824]</span>
-					</a>
-				</li>
-				<li>
-					<a href="../../../ppl/c/b/e6cf127fb8f51b3875094bbf1bc.html">
-					Weissmann, Robert
-					
-						<span class="grampsid"> [I6673]</span>
-					</a>
-				</li>
-				<li>
-					<a href="../../../ppl/b/7/cfa12319df41a6894f230658f7b.html">
-					Tucker, Rosa
-					
-						<span class="grampsid"> [I3544]</span>
-					</a>
-				</li>
-				<li>
-					<a href="../../../ppl/e/f/c49407de1547c6a689ab3a176fe.html">
-					Hayek, Michael
-					
-						<span class="grampsid"> [I2859]</span>
-					</a>
-				</li>
-				<li>
-					<a href="../../../ppl/3/6/e42952dd5e36a251679b661d063.html">
-					Biach, Katharina
-					
-						<span class="grampsid"> [I5947]</span>
-					</a>
-				</li>
-				<li>
-					<a href="../../../ppl/8/a/e57d6645cf148aa50e46ecfe9a8.html">
-					Duschinsky, Walter
-					
-						<span class="grampsid"> [I6358]</span>
-					</a>
-				</li>
-				<li>
-					<a href="../../../ppl/1/5/e42875d6696500c2659d09ca251.html">
-					Mandler, Jonas
-					
-						<span class="grampsid"> [I5926]</span>
-					</a>
-				</li>
-				<li>
-					<a href="../../../ppl/f/8/e20eee77f1766a22b65f7943d8f.html">
-					Placzek, Helene
-					
-						<span class="grampsid"> [I5580]</span>
-					</a>
-				</li>
-				<li>
-					<a href="../../../ppl/3/3/e42957394f166efdbeba8d4a733.html">
-					Mandler, Rosalie
-					
-						<span class="grampsid"> [I5952]</span>
-					</a>
-				</li>
-				<li>
-					<a href="../../../ppl/d/1/e20efb6fc3a5854817529bd791d.html">
-					Placzek, (unnamed)
-					
-						<span class="grampsid"> [I5583]</span>
-					</a>
-				</li>
-				<li>
-					<a href="../../../ppl/d/1/e6587d090a92d91a67728cb4c1d.html">
-					Mandler, Paula
-					
-						<span class="grampsid"> [I6565]</span>
-					</a>
-				</li>
-				<li>
-				Family of Mandler, Jonas and Biach, Katharina
-					<ol class="Col1" role="Volume-n-Page" type=a>
-						<li>
-							<a href="../../../ppl/3/6/e42952dd5e36a251679b661d063.html">
-							Biach, Katharina
-							
-								<span class="grampsid"> [I5947]</span>
-							</a>
-						</li>
-						<li>
-							<a href="../../../ppl/1/5/e42875d6696500c2659d09ca251.html">
-							Mandler, Jonas
-							
-								<span class="grampsid"> [I5926]</span>
-							</a>
-						</li>
-					</ol>
-				</li>
-				<li>
-					<a href="../../../ppl/e/3/e20ef1c575b5a48a6a1ba39843e.html">
-					Placzek, Regina
-					
-						<span class="grampsid"> [I5581]</span>
-					</a>
-				</li>
-				<li>
-					<a href="../../../ppl/6/6/e449579ec4f40fbd69a9be3166.html">
-					Wolf, Friedrich
-					
-						<span class="grampsid"> [I5966]</span>
-					</a>
-				</li>
-				<li>
-				Family of Hayek, Michael and Tucker, Rosa
-					<ol class="Col1" role="Volume-n-Page" type=a>
-						<li>
-							<a href="../../../ppl/b/7/cfa12319df41a6894f230658f7b.html">
-							Tucker, Rosa
-							
-								<span class="grampsid"> [I3544]</span>
-							</a>
-						</li>
-						<li>
-							<a href="../../../ppl/e/f/c49407de1547c6a689ab3a176fe.html">
-							Hayek, Michael
-							
-								<span class="grampsid"> [I2859]</span>
-							</a>
-						</li>
-					</ol>
-				</li>
-				<li>
-					<a href="../../../ppl/7/d/e6cf10702ab792f74c1dbcd9fd7.html">
-					Weissmann, Charlotte
-					
-						<span class="grampsid"> [I6672]</span>
-					</a>
-				</li>
-				<li>
-					<a href="../../../ppl/e/4/e20f0561d5e59124d7afdece74e.html">
-					Placzek, Elisabeth
-					
-						<span class="grampsid"> [I5585]</span>
-					</a>
-				</li>
-				<li>
-					<a href="../../../ppl/7/1/e5b52a01a8f3f9191356debe117.html">
-					Barcheles, Adele
-					
-						<span class="grampsid"> [I6439]</span>
-					</a>
-				</li>
-				<li>
-					<a href="../../../ppl/a/a/e20efa5a8556b6553083a8f71aa.html">
-					Placzek, Bertha
-					
-						<span class="grampsid"> [I5582]</span>
-					</a>
-				</li>
-				<li>
-					<a href="../../../ppl/0/b/e75393463fe18a66f98554c7db0.html">
-					Fleischmann, Hugo
-					
-						<span class="grampsid"> [I6779]</span>
-					</a>
-				</li>
-				<li>
-					<a href="../../../ppl/d/4/e5b1fedc36034ef4eac8b4e3a4d.html">
-					Barcheles, Helene
-					
-						<span class="grampsid"> [I6432]</span>
-					</a>
-				</li>
-				<li>
-					<a href="../../../ppl/1/6/e20efe0006d6f310b47cc320461.html">
-					Placzek, Alfred
-					
-						<span class="grampsid"> [I5584]</span>
-					</a>
-				</li>
-			</ol>
+		<div class="content" id="PlaceDetail">
+			<h3>Leopoldstadt, Vienna (II), Vienna, Austria</h3>
+			<div id="summaryarea">
+				<table class="infolist place">
+					<tbody>
+						<tr>
+							<td class="ColumnAttribute">City</td>
+							<td class="ColumnValue">Vienna</td>
+						</tr>
+						<tr>
+							<td class="ColumnAttribute">Postal Code</td>
+							<td class="ColumnValue">Wien-II</td>
+						</tr>
+						<tr>
+							<td class="ColumnAttribute">Country</td>
+							<td class="ColumnValue">Austria</td>
+						</tr>
+						<tr>
+							<td>
+							&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<th class="ColumnAttribute">Enclosed By</th>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/p/p/F2Z5ABMAMKVEWL88PP.html" title="Vienna">Vienna</a></td>
+						</tr>
+						<tr>
+							<td>
+							&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<th class="ColumnAttribute">Place Encloses</th>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/0/4/bf65d7a07046a99b7293a7ff540.html" title="Malzgasse 7 Altersheim">Malzgasse 7 Altersheim</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/4/2/d96f3228e361790d873c76d7d24.html" title="Zwerggasse 5">Zwerggasse 5</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/2/1/e1f78b876803287af9569697312.html" title="Pazmanitentempel">Pazmanitentempel</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/7/3/e20f1b1a5bc966ec0e0e0f6837.html" title="Pillersdorfgasse 10/9">Pillersdorfgasse 10/9</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/b/e/e20f1d5a4575e527494fd4f63eb.html" title="Pillersdorfgasse 10/3">Pillersdorfgasse 10/3</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/d/d/e2c339137e86619d409d841d4dd.html" title="Rueppgasse 38/15">Rueppgasse 38/15</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/8/e/e38a978d21b5a0032dad19bade8.html" title="Grosse Mohrengasse 37/21">Grosse Mohrengasse 37/21</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/f/e/e3b38d95b79283dc773c58180ef.html" title="Tempelgasse 3">Tempelgasse 3</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/9/9/e428aa6336e1bf476875a8db099.html" title="Grosse Mohrangasse 22">Grosse Mohrangasse 22</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/5/f/e428b9395244193444902dfdaf5.html" title="Rueppgasse 2/15">Rueppgasse 2/15</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/c/7/e4295d62e022a2a9a3129ea6f7c.html" title="Josefinengasse 4">Josefinengasse 4</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/1/f/e42963b274d3bd30dd744f8a7f1.html" title="Cirkusgasse 11">Cirkusgasse 11</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/8/7/e429675040219b3344051d2b678.html" title="Blumauergasse 11">Blumauergasse 11</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/4/5/e42ad8893c02663a1728ac84954.html" title="Grosse Mohrengasse 36">Grosse Mohrengasse 36</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/e/3/e42b8ec5f3b609fa2805615d13e.html" title="Cirkusgasse 14">Cirkusgasse 14</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/9/f/e4ecd0fb1b634ef0c5a5209ef9.html" title="Untere Augartenstrasse 28/8">Untere Augartenstrasse 28/8</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/1/5/e56fc866a984868b115c40af851.html" title="Praterstrasse 42">Praterstrasse 42</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/b/f/e5876ee4c056c143a5e145b4cfb.html" title="Grosse Mohrengasse 10">Grosse Mohrengasse 10</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/2/9/e5b1f66950952b8f18565e60e92.html" title="Lichtenauerg. 15">Lichtenauerg. 15</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/a/1/e5b5250302c6f49811af843eb1a.html" title="Carl-Meisl-strasse 9">Carl-Meisl-strasse 9</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/8/c/e5cbb65e01e1b787218467376c8.html" title="Krafftgasse 6">Krafftgasse 6</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/7/c/e5e3c1434bc3966a8d6351d7ec7.html" title="Obere Donaustrasse 63">Obere Donaustrasse 63</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/8/b/e5e3c4f3229c4340da73f342b8.html" title="Obere Donaustrasse 89">Obere Donaustrasse 89</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/1/d/e5eb3d9b4831ba9ba21baac18d1.html" title="Krafftgasse 3/12">Krafftgasse 3/12</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/c/d/e60c09d47b84f9cba49068ca6dc.html" title="Rotensterngasse 13/15">Rotensterngasse 13/15</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/8/e/e60c0c7ecad621fc57d13be78e8.html" title="Rotensterngasse 13/13">Rotensterngasse 13/13</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/b/1/e6cf07868585f5b9acbdbc0621b.html" title="Novaragasse 17">Novaragasse 17</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/4/f/e6cf0e371fe2eb5ebbc21719cf4.html" title="Gabelsbergergasse 3">Gabelsbergergasse 3</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/e/7/e6cfbb64ce45a2b18538b186d7e.html" title="Volkertplatz 8">Volkertplatz 8</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/1/9/e6e6cf6cd78344ed80b27688f91.html" title="Obere Donaustraße ">Obere Donaustraße </a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/c/2/e753920c2ab5adf6da5261d5a2c.html" title="Glockgasse 13">Glockgasse 13</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/c/9/e75392c1fb850f8ff71097b819c.html" title="Grosse Mohrengasse 22">Grosse Mohrengasse 22</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/0/5/eac82eb108b322fbe02a9bd1f50.html" title="Malzgasse 16">Malzgasse 16</a></td>
+						</tr>
+						<tr>
+							<td class="ColumnValue"><a href="../../../plc/4/9/eb1c3f517f06ab7173b482f0594.html" title="Czerningasse 4">Czerningasse 4</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div id="popup"></div>
+			<div class="subsection" id="references">
+				<h4>References</h4>
+				<ol class="Col1" role="Volume-n-Page" type=1>
+					<li>
+						<a href="../../../ppl/1/5/e42875d6696500c2659d09ca251.html">
+						Mandler, Jonas
+						 (1864-07-17) 
+						
+						</a>
+					</li>
+					<li>
+					Family of Mandler, Jonas and Biach, Katharina
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../ppl/3/6/e42952dd5e36a251679b661d063.html">
+								Biach, Katharina
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/1/5/e42875d6696500c2659d09ca251.html">
+								Mandler, Jonas
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../ppl/3/6/e42952dd5e36a251679b661d063.html">
+						Biach, Katharina
+						 (1864-07-17) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/d/4/e5b1fedc36034ef4eac8b4e3a4d.html">
+						Barcheles, Helene
+						 (1877-06-15) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/7/1/e5b52a01a8f3f9191356debe117.html">
+						Barcheles, Adele
+						 (1882-04-30) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/a/a/e20efa5a8556b6553083a8f71aa.html">
+						Placzek, Bertha
+						 (1886-05-08) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/d/1/e20efb6fc3a5854817529bd791d.html">
+						Placzek, (unnamed)
+						 (1887-07-20) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/1/6/e20efe0006d6f310b47cc320461.html">
+						Placzek, Alfred
+						 (1890-09-15) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/e/3/e20ef1c575b5a48a6a1ba39843e.html">
+						Placzek, Regina
+						 (1892-06-03) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/6/6/e449579ec4f40fbd69a9be3166.html">
+						Wolf, Friedrich
+						 (1892-11-09) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/f/8/e20eee77f1766a22b65f7943d8f.html">
+						Placzek, Helene
+						 (1895-02-25) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/2/a/d96f2c55fb46a6ab6e4974003a2.html">
+						Plaschkes, Ernestine
+						 (1895-03-25) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/0/b/e75393463fe18a66f98554c7db0.html">
+						Fleischmann, Hugo
+						 (1895-11-08) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/5/7/e42a961567d7ecccc7c653d4775.html">
+						Kohn, Romeo
+						 (1896-08-23) 
+						
+						</a>
+					</li>
+					<li>
+					Family of Kohn, Romeo and Mandler, Rosalie
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../ppl/5/7/e42a961567d7ecccc7c653d4775.html">
+								Kohn, Romeo
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/3/3/e42957394f166efdbeba8d4a733.html">
+								Mandler, Rosalie
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../ppl/3/3/e42957394f166efdbeba8d4a733.html">
+						Mandler, Rosalie
+						 (1896-08-23) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/e/4/e20f0561d5e59124d7afdece74e.html">
+						Placzek, Elisabeth
+						 (1898-05-03) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/e/f/c49407de1547c6a689ab3a176fe.html">
+						Hayek, Michael
+						 (1899-02-05) 
+						
+						</a>
+					</li>
+					<li>
+					Family of Hayek, Michael and Tucker, Rosa
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../ppl/e/f/c49407de1547c6a689ab3a176fe.html">
+								Hayek, Michael
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/b/7/cfa12319df41a6894f230658f7b.html">
+								Tucker, Rosa
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../ppl/b/7/cfa12319df41a6894f230658f7b.html">
+						Tucker, Rosa
+						 (1899-02-05) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/7/d/e6cf10702ab792f74c1dbcd9fd7.html">
+						Weissmann, Charlotte
+						 (1899-09-08) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/d/1/e6587d090a92d91a67728cb4c1d.html">
+						Mandler, Paula
+						 (1902-01-19) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/c/b/e6cf127fb8f51b3875094bbf1bc.html">
+						Weissmann, Robert
+						 (1902-12-07) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/8/a/e57d6645cf148aa50e46ecfe9a8.html">
+						Duschinsky, Walter
+						 (1910-03-11) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/5/9/d7e694fe2d66e1feeb672bc8595.html">
+						Fischer, Karl Gottlieb
+						 (1911-04-25) 
+						
+						</a>
+					</li>
+					<li>
+					Family of Kleinmann, Eduard and Barat, Nelly
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../ppl/2/e/e9cd1a232bd22b1e1fb492cdde2.html">
+								Barat, Nelly
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/9/f/e9cd1b53d927cf50aa2ea5677f9.html">
+								Kleinmann, Eduard
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<a href="../../../ppl/9/f/e9cd1b53d927cf50aa2ea5677f9.html">
+						Kleinmann, Eduard
+						 (1924) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/2/e/e9cd1a232bd22b1e1fb492cdde2.html">
+						Barat, Nelly
+						 (1924) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/b/2/c530f0f4ed67224eac4ccfdd72b.html">
+						Reiss, Robert
+						 (1939-01-28) 
+						
+						</a>
+					</li>
+					<li>
+						<a href="../../../ppl/8/6/e979f628a1169181f3583b9668.html">
+						Schmiedl, Emma
+						 (1939-01-28) 
+						
+						</a>
+					</li>
+					<li>
+					Family of Reiss, Robert and Schmiedl, Emma
+						<ol class="Col1" role="Volume-n-Page" type=a>
+							<li>
+								<a href="../../../ppl/8/6/e979f628a1169181f3583b9668.html">
+								Schmiedl, Emma
+								
+								
+								</a>
+							</li>
+							<li>
+								<a href="../../../ppl/b/2/c530f0f4ed67224eac4ccfdd72b.html">
+								Reiss, Robert
+								
+								
+								</a>
+							</li>
+						</ol>
+					</li>
+				</ol>
+			</div>
 		</div>
-	</div>
-	<div class="fullclear"></div>
-	<div id="footer">
-		<p id="createdate">
-		Generated by <a href="http://gramps-project.org/">Gramps</a> 5.0.1<br />Last change was the 2020-05-16 17:08:33
-		</p>
-		<p id="copyright">
-		&copy; 2020 Michael Gordy
-		</p>
+		<div class="fullclear"></div>
+		<div id="footer">
+			<p id="createdate">
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.2<br />Last change was the 2021-03-13 15:06:00
+			</p>
+			<p id="copyright">
+			&copy; 2021 Michael Gordy
+			</p>
+		</div>
 	</div>
 </body>
 </html>

@@ -5,121 +5,192 @@
 	<meta charset="UTF-8" />
 	<meta name ="viewport" content="width=device-width; height=device-height; initial-scale=1.0; minimum-scale=0.5; maximum-scale=10.0; user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
-	<meta name="generator" content="Gramps 5.0.1 http://gramps-project.org/" />
+	<meta name="generator" content="Gramps 5.1.2 http://gramps-project.org/" />
 	<meta name="author" content="Michael Gordy" />
 	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
 	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
 	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
 	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
 <body>
-	<div id="header">
-		<h1 id="SiteTitle">World of Yesterday</h1>
-	</div>
-	<div class="wrapper" id="nav" role="navigation">
-		<div class="container">
-			<ul class="menu" id="dropmenu">
-				<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
-				<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
-				<li><a href="../../../places.html" title="Places">Places</a></li>
-				<li><a href="../../../sources.html" title="Sources">Sources</a></li>
-				<li><a href="../../../media.html" title="Media">Media</a></li>
-				<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
-				<li><a onclick="history.go(-1);">Previous</a></li>
-				<li><a onclick="history.go(+1);">Next</a></li>
-			</ul>
+	<div id="outerwrapper">
+		<div id="header">
+			<a href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</a>
+			<h1 id="SiteTitle">World of Yesterday</h1>
 		</div>
-	</div>
-	<div class="content" id="IndividualDetail">
-		<h3>Heiduska, Cecilia<sup><small></small></sup></h3>
-		<div id="summaryarea">
-			<table class="infolist">
-				<tr>
-					<td class="ColumnAttribute">Birth Name</td>
-					<td class="ColumnValue">
-					Heiduska, Cecilia
-					</td>
-				</tr>
-				<tr>
-					<td class="ColumnAttribute">Gramps ID</td>
-					<td class="ColumnValue">I0900</td>
-				</tr>
-				<tr>
-					<td class="ColumnAttribute">Gender</td>
-					<td class="ColumnValue">female</td>
-				</tr>
-			</table>
+		<div class="wrappernav" id="nav" role="navigation">
+			<div class="container">
+				<ul class="nav" id="dropmenu">
+					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
+					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
+					<li><a href="../../../media.html" title="Media">Media</a></li>
+					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
+				</ul>
+			</div>
 		</div>
-		<div class="subsection" id="families">
-			<h4>Families</h4>
-			<table class="infolist">
-				<tr class="BeginFamily">
-					<td class="ColumnType">&nbsp</td>
-					<td class="ColumnAttribute">&nbsp</td>
-					<td class="ColumnValue"><a href="" title="Family of Simon, Anton and Heiduska, Cecilia">Family of Simon, Anton and Heiduska, Cecilia<span class="grampsid"> [F0308]</span></a></td>
-				</tr>
-				<tr class="BeginFamily">
-					<td class="ColumnType">Married</td>
-					<td class="ColumnAttribute">Husband</td>
-					<td class="ColumnValue">
-						<a href="../../../ppl/1/4/ae0c4a9d03c1cc0300f4338eb41.html">Simon, Anton<span class="grampsid"> [I0899]</span></a>
-					 ( * 
-					
-					 + 
-					...
-					 )
-					</td>
-				</tr>
-				<tr>
-					<td class="ColumnType">&nbsp;</td>
-					<td class="ColumnAttribute">Children</td>
-					<td class="ColumnValue" />
-					<table class="infolist eventlist">
-						<thead>
-							<tr>
-								<th class="ColumnName">Name</th>
-								<th class="ColumnDate">Birth Date</th>
-								<th class="ColumnDate">Death Date</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr><td /><a href="../../../ppl/b/2/ae0c49a1dda44ec02e6071f92b.html">Simon, Simon<span class="grampsid"> [I0896]</span></a><td>about 1890</td><td>before 1940-04-05</td></tr>
-						</tbody>
-					</table>
-				</tr>
-			</table>
-		</div>
-		<div class="subsection" id="pedigree">
-			<h4>Pedigree</h4>
-			<ol class="pedigreegen">
-				<li>
-					<ol>
-						<li class="thisperson">
+		<div class="content" id="IndividualDetail">
+			<h3>Heiduska, Cecilia<sup><small></small></sup></h3>
+			<div id="summaryarea">
+				<table class="infolist">
+					<tr>
+						<td class="ColumnAttribute">Birth Name</td>
+						<td class="ColumnValue">
 						Heiduska, Cecilia
-							<ol class="spouselist">
-								<li class="spouse">
-									<a href="../../../ppl/1/4/ae0c4a9d03c1cc0300f4338eb41.html">Simon, Anton<span class="grampsid"> [I0899]</span></a>
-									<ol>
-										<li>
-											<a href="../../../ppl/b/2/ae0c49a1dda44ec02e6071f92b.html">Simon, Simon<span class="grampsid"> [I0896]</span></a>
-										</li>
-									</ol>
-								</li>
-							</ol>
-						</li>
-					</ol>
-				</li>
-			</ol>
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnAttribute">Nick Name</td>
+						<td class="ColumnValue">Cilie</td>
+					</tr>
+					<tr>
+						<td class="ColumnAttribute">Gender</td>
+						<td class="ColumnValue">female</td>
+					</tr>
+				</table>
+			</div>
+			<div class="subsection" id="events">
+				<h4>Events</h4>
+				<table class="infolist eventlist">
+					<thead>
+						<tr>
+							<th class="ColumnEvent">Event</th>
+							<th class="ColumnDate">Date</th>
+							<th class="ColumnPlace">Place</th>
+							<th class="ColumnDescription">Description</th>
+							<th class="ColumnSources">Sources</th>
+							</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="ColumnEvent">
+							Residence
+							</td>
+							<td class="ColumnDate">1930-09-13</td>
+							<td class="ColumnPlace">
+								<a href="../../../plc/f/1/eb038e6ee7e7137335cf705cb1f.html" title="Vel. Kikinda, North Banat, Vojvodina, Serbia">
+								Vel. Kikinda, North Banat, Vojvodina, Serbia
+								</a>
+							</td>
+							<td class="ColumnDescription">&nbsp;</td>
+							<td class="ColumnSources" rowspan="2">
+							 <a href="#sref1a">1a</a>
+							</td>
+							<tr>
+								<td class="ColumnEvent">
+								
+								</td>
+								<td class="ColumnNotes" colspan="3">
+									<div>
+									</div>
+								</td>
+							</tr>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="subsection" id="families">
+				<h4>Families</h4>
+				<table class="infolist">
+					<tr class="BeginFamily">
+						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="" title="Family of Simon, Anton and Heiduska, Cecilia">Family of Simon, Anton and Heiduska, Cecilia</a></H4></td>
+					</tr>
+					<tr class="BeginFamily">
+						<td class="ColumnType">Married</td>
+						<td class="ColumnAttribute">Husband</td>
+						<td class="ColumnValue">
+							<a href="../../../ppl/1/4/ae0c4a9d03c1cc0300f4338eb41.html">Simon, Anton</a>
+						 ( * 
+						
+						 + 
+						...
+						 )
+						</td>
+					</tr>
+					<tr>
+						<td class="ColumnType">&nbsp;</td>
+						<td class="ColumnAttribute">Children</td>
+						<td class="ColumnValue" />
+						<table class="infolist eventlist">
+							<thead>
+								<tr>
+									<th class="ColumnName">Name</th>
+									<th class="ColumnDate">Birth Date</th>
+									<th class="ColumnDate">Death Date</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td /><a href="../../../ppl/b/2/ae0c49a1dda44ec02e6071f92b.html">Simon, Simon</a><td>about 1886</td><td>1938-04-24</td></tr>
+								<tr><td /><a href="../../../ppl/8/7/e969baf3134702f3f69edeaa078.html">Simon, Rose</a><td>1881-12-20</td><td></td></tr>
+								<tr><td /><a href="../../../ppl/f/3/eb037f2b35dc56015e0af8153f.html">Simon, Yetty</a><td></td><td></td></tr>
+							</tbody>
+						</table>
+					</tr>
+				</table>
+			</div>
+			<div class="subsection" id="pedigree">
+				<h4>Pedigree</h4>
+				<ol class="pedigreegen">
+					<li>
+						<ol>
+							<li class="thisperson">
+							Heiduska, Cecilia
+								<ol class="spouselist">
+									<li class="spouse">
+										<a href="../../../ppl/1/4/ae0c4a9d03c1cc0300f4338eb41.html">Simon, Anton</a>
+										<ol>
+											<li>
+												<a href="../../../ppl/b/2/ae0c49a1dda44ec02e6071f92b.html">Simon, Simon</a>
+											</li>
+											<li>
+												<a href="../../../ppl/8/7/e969baf3134702f3f69edeaa078.html">Simon, Rose</a>
+											</li>
+											<li>
+												<a href="../../../ppl/f/3/eb037f2b35dc56015e0af8153f.html">Simon, Yetty</a>
+											</li>
+										</ol>
+									</li>
+								</ol>
+							</li>
+						</ol>
+					</li>
+				</ol>
+			</div>
+			<div class="subsection" id="sourcerefs">
+				<h4>Source References</h4>
+				<ol>
+					<li>
+						<a href="../../../src/e/4/eb038b97f69671f5c3bc169e34e.html" title="US Department of State: United States Passport" name ="sref1">
+						US Department of State: United States Passport
+						</a>
+						<ol>
+							<li id="sref1a">
+								<ul>
+									<li>
+									Date: 1930-09-13
+									</li>
+									<li>
+									Page: Rose Farkas
+									</li>
+									<li><div class="thumbnail"><a href="../../../img/e/8/eb038c1cadf326a77b61412788e.html" title="Rose Farkas Passport 1"><img alt="Rose Farkas Passport 1" src="../../../thumb/e/8/eb038c1cadf326a77b61412788e.png" /></a></div></li>
+									<li><div class="thumbnail"><a href="../../../img/e/b/eb038c29a0c4ab41914842886be.html" title="Rose Farkas Passport 2"><img alt="Rose Farkas Passport 2" src="../../../thumb/e/b/eb038c29a0c4ab41914842886be.png" /></a></div></li>
+									<li><div class="thumbnail"><a href="../../../img/c/6/eb038c3981e7dbd96495fae026c.html" title="Rose Farkas Passport 3"><img alt="Rose Farkas Passport 3" src="../../../thumb/c/6/eb038c3981e7dbd96495fae026c.png" /></a></div></li>
+								</ul>
+							</li>
+						</ol>
+					</li>
+				</ol>
+			</div>
 		</div>
-	</div>
-	<div class="fullclear"></div>
-	<div id="footer">
-		<p id="createdate">
-		Generated by <a href="http://gramps-project.org/">Gramps</a> 5.0.1<br />Last change was the 2009-11-17 22:35:11
-		</p>
-		<p id="copyright">
-		&copy; 2020 Michael Gordy
-		</p>
+		<div class="fullclear"></div>
+		<div id="footer">
+			<p id="createdate">
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 5.1.2<br />Last change was the 2021-03-05 23:00:08
+			</p>
+			<p id="copyright">
+			&copy; 2021 Michael Gordy
+			</p>
+		</div>
 	</div>
 </body>
 </html>
