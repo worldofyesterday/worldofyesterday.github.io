@@ -1,0 +1,9 @@
+BODY {background-image: url(icons/paper7.jpg)}
+BODY {margin: 0.1cm 0.5cm 0.1cm 0.5cm}
+P {font-size: 14pt}
+H1 {font-size: 24pt}
+H2 {font-size: 21pt}
+H3 {font-size: 18pt}
+A:link {text-decoration: none; color: #0000dd}
+A:visited {text-decoration: none; color: #0000d0}
+A:active {text-decoration: none; color: #00d800}
